@@ -1,6 +1,7 @@
 # 📦 Data Warehouse & Analytics Project (MySQL)
 <br>
-Welcome to the **Data Warehouse & Analytics Project 🚀**
+
+Welcome to the **Data Warehouse & Analytics Project** 🚀
 This project demonstrates how to design and build a modern data warehouse using a layered architecture and perform analytical reporting using SQL. It showcases practical skills in data engineering, data modeling, ETL development, and analytics.
 
 --- 
