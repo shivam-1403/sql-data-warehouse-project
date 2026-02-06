@@ -1,7 +1,9 @@
 # 📦 Data Warehouse & Analytics Project (MySQL)
-
+<br>
 Welcome to the **Data Warehouse & Analytics Project 🚀**
 This project demonstrates how to design and build a modern data warehouse using a layered architecture and perform analytical reporting using SQL. It showcases practical skills in data engineering, data modeling, ETL development, and analytics.
+
+--- 
 
 ## 📌 Project Goals
 
@@ -11,6 +13,8 @@ This project demonstrates how to design and build a modern data warehouse using 
 - Create fact and dimension tables
 - Generate analytical insights using SQL queries
 - This project is intended for learning and portfolio purposes.
+
+---
 
 ## 🏗️ Architecture (Medallion Architecture)
 
@@ -22,6 +26,8 @@ The project follows the Medallion Architecture:
 
 CSV Files → Bronze Tables → Silver Tables → Gold Views → Analytics Queries
 
+---
+
 ## 🗃️ Data Sources
 
 - CRM System (Customers, Products, Sales)
@@ -29,12 +35,16 @@ CSV Files → Bronze Tables → Silver Tables → Gold Views → Analytics Queri
 
 All data is provided as CSV files.
 
+---
+
 ## ⚙️ Tech Stack
 
 - MySQL 8+
 - MySQL Workbench
 - Git & GitHub
 - Draw.io (Architecture & Data Modeling)
+
+---
 
 ## 🧱 Warehouse Layers
 
@@ -53,12 +63,16 @@ All data is provided as CSV files.
 - Fact tables
 - Star schema modeling
 
+---
+
 ## ⭐ Data Model (Star Schema)
 **Dimensions**
 - ```dim_customers```
 - ```dim_products```
 **Fact Table**
 - ```fact_sales```
+
+---
 
 ## 🔁 ETL Flow
 
@@ -67,6 +81,8 @@ All data is provided as CSV files.
 - Build analytical views in Gold
 
 All ETL logic is implemented using SQL scripts and stored procedures.
+
+---
 
 ## 📊 Analytics Use Cases
 
@@ -79,6 +95,8 @@ All ETL logic is implemented using SQL scripts and stored procedures.
 - Sales by country
 - Monthly revenue trend
 - Customer purchase behavior
+
+---
 
 ## 📂 Repository Structure
 ```
@@ -106,6 +124,7 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
+
 ---
 
 ## ▶ How To Run Project
@@ -117,6 +136,8 @@ data-warehouse-project/
 5 .Run Gold view scripts
 6. Execute analytics queries
 
+---
+
 ## 📈 Skills Demonstrated
 
 - SQL Development
@@ -127,12 +148,16 @@ data-warehouse-project/
 - Star Schema Modeling
 - Analytics Queries
 
+---
+
 ## 🔮 Future Improvements
 
 - Add indexing strategy
 - Add incremental loading
 - Add Python-based analytics
 - Add dashboard (Power BI / Tableau)
+
+---
 
 ## 👤 Author
 
