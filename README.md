@@ -70,6 +70,7 @@ All data is provided as CSV files.
 **Dimensions**
 - ```dim_customers```
 - ```dim_products```
+- <br>
 **Fact Table**
 - ```fact_sales```
 
@@ -162,8 +163,8 @@ data-warehouse-project/
 
 ## 👤 Author
 
-Shivam
-Computer Science Engineering Student
+Shivam <br>
+Computer Science Engineering Student <br>
 Aspiring Data Engineer / Data Analyst
 
 ## 📜 License
