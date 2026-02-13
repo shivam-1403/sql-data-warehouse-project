@@ -70,8 +70,8 @@ All data is provided as CSV files.
 **Dimensions**
 - ```dim_customers```
 - ```dim_products```
-- <br>
-**Fact Table**
+  
+<br>**Fact Table**
 - ```fact_sales```
 
 ---
@@ -82,7 +82,7 @@ All data is provided as CSV files.
 - Transform Bronze → Silver
 - Build analytical views in Gold
 
-All ETL logic is implemented using SQL scripts and stored procedures.
+All ETL logic is implemented using SQL scripts.
 
 ---
 
@@ -107,7 +107,6 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
@@ -122,9 +121,7 @@ data-warehouse-project/
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+└── LICENSE                             # License information for the repository
 ```
 
 ---
@@ -135,7 +132,7 @@ data-warehouse-project/
 2. Run Bronze table scripts
 3. Load CSV data
 4. Run Silver transformation scripts
-5 .Run Gold view scripts
+5. Run Gold view scripts
 6. Execute analytics queries
 
 ---
